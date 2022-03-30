@@ -1,0 +1,76 @@
+img{
+    width: 50px; 
+    height: 50px;
+}
+p{
+    justify-content: left;
+    font-size:30px;
+    text-align: left;
+    display: inline-flex;
+    margin: auto; 
+}
+body{
+    font-family: 'Segoe UI' ,sans-serif;
+}
+#list{
+    border-top: 1px solid #4e4e4e;
+    border-bottom: 1px solid #4e4e4e;
+    border-color: #609ea0;
+    flex: 2;
+    display: inline-flex;
+}
+#box{
+    flex-direction: column; 
+    display: inline-flex; 
+    flex: 1;
+    height: auto; 
+    width: 49%;             
+}
+#yes, #no{
+    justify-content: right;
+    display: inline-flex;
+    border: none;
+
+    font-size: 51px;
+    text-align: center;
+    
+    background-color: white;
+    width: 51px;
+    flex:1;
+}
+#no:active{
+    background-color: #FF0000;
+}
+#yes:active{
+    background-color: #FFFF00;
+}
+#add{
+    width: 90px; 
+    height:40px; 
+    background-color: #609ea0; 
+    border: none; 
+    color: white; 
+    font-size: 20px; 
+    box-shadow: 2px 2px 4px #606060;
+}
+#add:active{
+    background-color: rgba(104,0,0, 0.2);
+}
+#par ,#par2{
+    color: white; 
+    padding:20px; 
+    align-content: center; 
+    background-color: #609ea0; 
+    box-shadow: 2px 2px 4px #606060; 
+    height: 50px;
+}
+#In{
+    border: none;
+    background-color: #dbe9f4;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    box-shadow: 2px 2px 4px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', sans-serif;
+}

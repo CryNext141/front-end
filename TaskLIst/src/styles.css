@@ -1,0 +1,130 @@
+img {
+    width: 35px;
+    height: 35px;
+}
+
+.done, .close {
+    width: 4vh;
+    padding: 10px;
+}
+
+p {
+    justify-content: left;
+    font-size: 30px;
+    text-align: left;
+    display: inline-flex;
+    margin: auto;
+
+}
+
+body {
+    font-family: 'Segoe UI',sans-serif;
+}
+
+#up, #down {
+    color: white;
+    padding: 20px;
+    align-content: center;
+    background-color: #609ea0;
+    box-shadow: 2px 2px 4px #606060;
+    height: 50px;
+}
+
+.content {
+    display: flex
+}
+.title {
+    font-size: 150%;
+    font-weight: normal;
+    margin: 0px
+}
+.input_area {
+    width: 50%;
+    margin: 20px
+}
+
+.titleInput input{
+    padding: 10px;
+    box-shadow: 2px 2px 4px;
+    border: none;
+    background-color: #dbe9f4;
+    width: 100%;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.description {
+    font-size: 150%;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.descInput {
+    padding: 10px;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 4px;
+    border: none;
+    background-color: #dbe9f4;
+    width: 100%;
+    resize: none;
+    outline: none;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.add_box {
+    justify-content: right;
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.add {
+    width: 90px;
+    height: 40px;
+    background-color: #609ea0;
+    border: none;
+    color: white;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px #606060;
+}
+.add:hover{
+    background-color: #258578fd;
+}
+.add:active, .greenButton:active{
+    background-color:#31998bdc;
+}
+
+.task {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.tasks {
+    margin-top: 40px;
+    border-top: grey solid 1px;
+    width: 50%;
+    border-bottom: grey solid 1px;
+    margin-bottom:auto;
+}
+
+.task_title {
+    font-size: 200%;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 20px;
+    font-weight: normal;
+    
+}
+
+.task-done {
+    background-color: #609ea0;
+}
+
+.done:hover {
+    background-color: #FFFF00;
+}
+
+.close:hover {
+    background-color: #ff0000;
+}
